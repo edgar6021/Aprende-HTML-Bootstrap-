@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria2</title>
+    <link rel="stylesheet" href="./galeria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa </h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Form.html" class="nav_links">setting</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Pagina_principal.html" class="nav_links">Proyecto anterior</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../Practica1-CSS/primera practica css/Primera.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+<div class="text-center mb-4">
+<h1>Galeria de imagenes con bootstrap</h1>
+</div>
+
+    <!-- Inicio Galeria con Modal -->
+    <div class="row bg-black" >
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded h-auto" src="./imagenes/portfolio1.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio2.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio3.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio4.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio5.png" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio6.jpg" alt="">
+            </a>
+        </div>
+ <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio7.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio8.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio9.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio10.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded " src="./imagenes/portfolio11.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage12">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio12.jpg" alt="">
+            </a>
+        </div>
+ <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage13">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio13.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage14">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio14.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage15">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded " src="./imagenes/portfolio15.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage16">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/portfolio16.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage17">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/porfolio17.jpg" alt="">
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage18">
+                <img class="w-100 mb-4 rounded p-1" class="w-100 mb-4 rounded" src="./imagenes/porfolio18.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!-- Fin Galeria con Modal -->
+
+    <!-- Inicio Codigo del Modal de la Galeria -->
+
+    <div tabindex="-1" arial-labelledby="modalImage1" arial-hidden="true" class="modal fade" id="modalImage1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1"  src="./imagenes/portfolio1.jpg" alt="">
+            <div class="modal-footer">
+                <span class="float-left">Precio</span>
+                <small>$102,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+                
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage2" arial-hidden="true" class="modal fade" id="modalImage2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1"  src="./imagenes/portfolio2.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$153,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage3" arial-hidden="true" class="modal fade" id="modalImage3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio3.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$152,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage4" arial-hidden="true" class="modal fade" id="modalImage4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio4.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$14,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+   <div tabindex="-1" arial-labelledby="modalImage5" arial-hidden="true" class="modal fade" id="modalImage5">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio5.png" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$130,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage6" arial-hidden="true" class="modal fade" id="modalImage6">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio6.jpg" alt="">
+ <div class="modal-footer">
+<span class="float-left">Precio</span>
+                <small>$15,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage7" arial-hidden="true" class="modal fade" id="modalImage7">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio7.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$134,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+<div tabindex="-1" arial-labelledby="modalImage8" arial-hidden="true" class="modal fade" id="modalImage8">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio8.jpg" alt="">
+            <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$13,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage9" arial-hidden="true" class="modal fade" id="modalImage9">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio9.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$30,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage10" arial-hidden="true" class="modal fade" id="modalImage10">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio10.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$35,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage11" arial-hidden="true" class="modal fade" id="modalImage11">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio11.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$10,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage12" arial-hidden="true" class="modal fade" id="modalImage12">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio12.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$15,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage13" arial-hidden="true" class="modal fade" id="modalImage13">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio13.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$136,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+<div tabindex="-1" arial-labelledby="modalImage14" arial-hidden="true" class="modal fade" id="modalImage14">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio14.jpg" alt="">
+            <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$131,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage15" arial-hidden="true" class="modal fade" id="modalImage15">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio15.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$138,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage16" arial-hidden="true" class="modal fade" id="modalImage16">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/portfolio16.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$137,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage17" arial-hidden="true" class="modal fade" id="modalImage17">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/porfolio17.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$134,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div tabindex="-1" arial-labelledby="modalImage18" arial-hidden="true" class="modal fade" id="modalImage18">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img class="w-100 mb-4 rounded p-1" src="./imagenes/porfolio18.jpg" alt="">
+ <div class="modal-footer">
+ <span class="float-left">Precio</span>
+                <small>$136,000.00</small>
+                <button class="btn btn-primary" data-bs-dismiss="modal" aria-hidden="true">cerrar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Fin Codigo del Modal de la Galeria -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<---CSS-->
+
+:root{
+    --padding-container:100px 0;
+    --color-title: #fff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color: #181717;
+    text-decoration: none;
+
+    
+}

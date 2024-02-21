@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./listas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0-beta3/css/all.min.css">
+
+    <title>Listas</title>
+</head>
+
+<body>
+<nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa </h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Form.html" class="nav_links">setting</a>
+                    </li>
+                     <li class="nav_items">
+                        <a href="../../primera practica css/tercera practica css/sombras.html" class="nav_links">Proyecto anterior</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../tercera practica css/style.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+<header>
+<h1>Elementos HTML <br> Lista </h1>
+</header>
+<div class="lista">
+    <h3>Listas desordenadas (por defecto)</h3>
+    <ul>
+        <li>item 01</li>
+        <li>item 02</li>
+        <li>item 03</li>
+    </ul>
+    <h3>Listas ordenadas (por defecto)</h3>
+    <ol>
+        <li>item 01</li>
+        <li>item 02</li>
+        <li>item 03</li>
+    </ol>
+
+    <h3>Otros tipos de listas</h3>
+    <h4>listas anidadas</h4>
+    <ul>
+        <li>item 01
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+        </li>
+        <li>item 02
+            <ol>
+                <li>item 01</li>
+                <li>item 02
+                    <ul>
+                        <li type="square">item 01</li>
+                        <li type="square">item 02</li>
+                        <li type="square">item 03</li>
+                    </ul>
+                </li>
+                <li>item 3</li>
+            </ol>
+        <li>item 03</li>
+        </li>
+    </ul>
+    <h4>Lista con viñetas</h4>
+    <div class="side-by-side">
+        <div class="side-list">
+            <ul class="circle">
+                <li>circle</li>
+                <li>item 02</li>
+                <li>item 03</li>
+            </ul>
+        </div>
+        <div class="side-list">
+            <ul class="square">
+                <li>square</li>
+                <li>item 02</li>
+                <li>item 03</li>
+            </ul>
+        </div>
+    </div>
+    <h4>Lista alfanumerica</h4>
+    <div class="side-by-side">
+        <div class="side-list">
+            <ol type="A">
+                <li>upper-alpha</li>
+                <li>item 02</li>
+                <li>item 03</li>
+            </ol>
+        </div>
+        <div class="side-list">
+            <ol type="a">
+                <li>lower-alpha</li>
+                <li>item 02</li>
+                <li>item 03</li>
+            </ol>
+        </div>
+        <div class="side-list">
+            <ol class="lower-greek">
+                <li>lower-alpha</li>
+                <li>item 02</li>
+                <li>item 03</li>
+            </ol>
+        </div>
+    </div>
+
+    <h4>Listas numericas</h4>
+    <div class="side-by-side">
+        <div class="side-list">
+            <ol type="upper-decimal">
+                <li>Upper-decimal</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+            </ol>
+        </div>
+        <div class="side-list">
+            <ol type="i">
+                <li>lower-roman</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+            </ol>
+        </div>
+        <div class="side-list">
+            <ol type="I">
+                <li>Upper-roman</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+            </ol>
+        </div>
+    </div>
+
+    <h4>Lista con iconos.png</h4>
+    <div class="side-by-side">
+        <div class="side-list">
+            <ul class="icon_flecha">
+                <li>Con iconos</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+            </ul>
+        </div>
+        <div class="side-list">
+            <ul class="icon_upload">
+               <li>Con iconos</li>
+                <li>Item 02</li>
+                <li>Item 03</li>
+            </ul>
+        </div>
+    </div>
+
+    <h4>Lista con caracteres unicode</h4>
+<div class="side-by-side">
+<div class="side-list">
+  <ul class="icon_cotejos">
+        <li>Con unicode</li>
+        <li>Item 02</li>
+        <li>Item 03</li>
+    </ul>
+</div>
+<div class="side-list">
+ <ol class="icon_cancelar">
+        <li>Con unicode</li>
+        <li>Item 02</li>
+        <li>Item 03</li>
+    </ol>
+</div>
+</div>
+</div>
+  
+</body>
+
+</html>
+
+body {
+    margin: 3%;
+    padding: 0;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../../../image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+color: aqua;
+}
+
+header {
+border: solid 1px;
+color: aliceblue;
+}
+
+.lista{
+border: solid 1px;
+background-color:aliceblue ;
+
+}
+
+h1{
+text-align: center;
+padding: 15px;
+border: solid 1px;
+color: aqua;
+}
+
+ .side-by-side {
+            display: flex;
+        }
+        .side-list {
+            flex: 1;
+            width: 100px; 
+            height: 100px;
+            padding: 10px;
+            background-color: #785a5a;
+            margin: 5px;
+            box-sizing: border-box; 
+        }
+   .circle li{
+   list-style-type: circle;
+}
+.square li{
+  list-style-type: square;
+}
+
+.lower-greek{
+list-style-type: lower-greek;
+}
+
+ .icon_flecha{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.icon_flecha li::before {
+  content: ""; 
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+  background-image: url('./icons/ChevronDoubleRight.svg'); 
+  background-size: cover; 
+}
+
+ .icon_upload{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.icon_upload li::before {
+  content: ""; 
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+  background-image: url('./icons/seo-social-web-network-internet_25_icon-icons.com_61513.ico'); 
+  background-size: cover; 
+}
+
+.icon_cotejos{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.icon_cotejos li::before {
+  content: ""; 
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+  background-image: url('./icons/yes_check_checklist_accept_list_ok_tick_mark_icon_220915.ico'); 
+  background-size: cover; 
+}
+
+.icon_cancelar{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.icon_cancelar li::before {
+  content: ""; 
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  margin-right: 8px; 
+  background-image: url('./icons/Cancel_40972.ico'); 
+  background-size: cover; 
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color:aqua;
+    text-decoration: none;
+
+    
+}

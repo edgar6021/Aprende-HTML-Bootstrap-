@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica1</title>
+    <link rel="stylesheet" href="./Tabla_y_formulario.css">
+</head>
+<body>
+
+    <nav class="nav container" data-list>
+        <div class="nav_logo">
+            <h2 class="nav_title">Edgar De la Rosa</h2>
+        </div>
+        <ul class="nav_link nav_link--menu">
+            <li class="nav_items">
+                <a href="../../index.html" class="nav_links">Inicio</a>
+            </li>
+            <li class="nav_items">
+                <a href="../pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+            </li>
+            <li class="nav_items">
+                <a href="../pagina web navegable/Form.html" class="nav_links">Setting</a>
+            </li>
+              <li class="nav_items">
+                <a href="../../Practica1-CSS/tercera practica css/style.html" class="nav_links">Proyecto anterior</a>
+            </li>
+            <li class="nav_items">
+                <a href="../mi sitio/Mi_sitio.html" class="nav_links">Siguiente proyecto</a>
+            </li>
+        </ul>
+    </nav>
+<h1>TABLA Y FORMULARIO (HTML Y CSS)</h1>
+    <section class="tablas">
+     <div class="div_tablas">
+        <b>
+            <h3>Análisis de ventas</h3>
+        </b>
+        <h4>Análisis de ventas anuales</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>AÑO</th>
+                    <th>Producto A</th>
+                    <th>Producto B</th>
+                    <th>Producto C</th>
+                    <th>Producto D</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year">N-3</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="year">N-2</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td class="year">N-1</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td class="year">N</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+    </section>
+    <section class="formulario">
+<div class="div_formulario">
+        <form class="formulario_cv">
+            <b>
+                <h3>Rellena tu CV</h3>
+            </b>
+            <label for="txt1">Nombre</label>
+            <input id="txt1" name="txt1" type="text" placeholder="nombre" />
+            <label for="txt2">Apellidos</label>
+            <input id="txt2" name="txt2" type="text" placeholder="apellidos" />
+            <label for="txt3">Contraseña</label>
+            <input id="txt3" name="txt3" type="password" placeholder="contraseña" />
+            <label for="txt4">DNI</label>
+            <input id="txt4" name="txt4" type="text" placeholder="dni" />
+            <label for="radio1">Sexo</label>
+            <input type="radio" id="radio1" name="radio" />
+            <label for="radio1">Hombre</label>
+            <input type="radio" id="radio2" name="radio" />
+            <label for="radio2">Mujer</label>
+            <div>
+                <label for="txt8">Incluir imagen</label>
+                <input id="txt8" name="txt8" type="file" />
+                <button type="button" class="elegir">Elegir...</button>
+            </div>
+            <div>
+                <input id="chechkbox" name="checkbox" type="checkbox" />
+                <label for="checkbox">Suscribirme al boletín de novedades</label>
+            </div>
+            <div class="botones">
+                <button type="submit" class="guardar">Guardar cambios</button>
+                <button type="reset" class="borrar">Borrar los datos introducidos</button>
+            </div>
+        </form>
+</div>
+    </section>
+</body>
+</html>
+
+
+body{
+margin: 3%;
+    padding: 0;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../../image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+padding: 20px;
+}
+/*Section tabla*/
+h3{
+padding: 20px;
+margin: 10px;
+}
+
+
+
+
+th,
+td {
+  border: 1px solid;
+  padding: 5px ;
+  text-align: center;
+}
+
+.year{
+color: black;
+font-weight: bold;
+}
+
+/*Section formulario*/
+
+
+input{
+display: block;
+margin-top: 1px;
+padding: 3px;
+border-radius: 5px;
+}
+button{
+background: rgb(167, 159, 159);
+border-radius: 5px;
+}
+div{
+padding: 10px;
+}
+
+#lbl6{
+position: absolute;
+right: 93%;
+bottom: 6.3em;
+
+}
+#lbl7{
+position: absolute;
+right: 94%;
+bottom:5.3em;
+}
+
+#lbl9{
+position: absolute;
+right: 80%;
+bottom: 1.1em;
+position: static;
+}
+
+#txt8{
+display: inline;
+width: auto;
+padding-bottom: 0%;
+}
+
+.botones{
+display: block;
+height: auto;
+text-align: left;
+}
+
+h2{
+color:aqua;
+}
+h1{
+color:aqua;
+text-align: center;
+border: solid 2px;
+}
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color:aqua;
+    text-decoration: none;
+
+    
+}
+
+.div_tablas{
+border: solid 1px;
+background-color: antiquewhite;
+}
+
+.div_formulario{
+border: solid 1px;
+background-color: antiquewhite;
+justify-content: center;
+}
+
+
+
+
+

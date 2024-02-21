@@ -1,0 +1,1217 @@
+<!--Pagina principal-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar De la Rosa </title>
+    <link rel="shortcut icon" href="./IMAGE/Tech.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+</head>
+
+<body>
+    <section class="body">
+        <header class="hero">
+            <nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa</h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Form.html" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">setting</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../Busqueda/busqueda.html" class="nav_links">Proyecto anterior</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../galeria de imagenes/galeria.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="hero_container  container">
+            <h1 class="hero_title">EDGAR DE LA ROSA  </h1>
+                <P class="hero_paragraph">Curso de Frond End</P>
+                <a href="./Form.html" class="cta">Inscribete ahora</a>
+
+            </section>
+        </header>
+</body>
+
+</html>
+
+<!--Descripcion-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar De la Rosa </title>
+    <link rel="shortcut icon" href="./IMAGE/Tech.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+</head>
+
+<body>
+    <section class="body">
+        <header class="hero">
+            <nav class="nav container ">
+                <div class="nav_logo">
+                    <h2 class="nav_title">TECH E Y E</h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Form.html" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">setting</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Pagina_principal.html" class="nav_links">volve atras</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../galeria de imagenes/galeria.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+
+                    <img src="./IMAGE/close.svg" class="nav_close" alt="close">
+                </ul>
+
+
+                <div class="nav_menu">
+                    <img src="./IMAGE/menu.svg" class="nav_menu" alt="menu">
+                </div>
+            </nav>
+            <section class="hero_container  container">
+                < <h1 class="hero_title">EDGAR DE LA ROSA  </h1>
+                <P class="hero_paragraph">Curso de Frond End</P>
+                <a href="./Form.html" class="cta">Inscribete ahora</a>
+            </section>
+        </header>
+
+        <main>
+            <section class="container about">
+                <h2 class="subtile">Siguenos en nuestra redes sociales</h2>
+                <p class="about_paragraph">Los Mejores contenido</p>
+
+                <div class="about_main">
+                    <article class="about_icons">
+                        <a href="http://meta.com/"><img src="./IMAGE/meta.svg" class="about_icon"></a>
+                        <h3 class="about_title">Meta</h3>
+                        <p class="about_paragrah">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                            perferendis commodi corporis placeat.</p>
+                    </article>
+                    <article class="about_icons">
+                        <a href="http://instagram.com"><img src="./IMAGE/instagram.svg" class="about_icon"></a>
+                        <h3 class="about_title">Instagram</h3>
+                        <p class="about_paragrah">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                            perferendis commodi corporis placeat.</p>
+                    </article>
+                    <article class="about_icons">
+                        <a href="http://twitter.com"><img src="./IMAGE/twiter.svg" class="about_icon"></a>
+                        <h3 class="about_title">Twitter</h3>
+                        <p class="about_paragrah">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                            perferendis commodi corporis placeat.</p>
+                    </article>
+                    <article class="about_icons">
+                        <a href="http://tiktok.com"><img src="./IMAGE/tik tok.svg" class="about_icon"></a>
+                        <h3 class="about_title">Tik Tok</h3>
+                        <p class="about_paragrah">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+                            perferendis commodi corporis placeat.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="Knowledge">
+                <div class="Knowledge_container container">
+                    <div class="knowledge_texts">
+                        <h2 class="subtitle">Los mejores contenidos</h2>
+                        <p class="Knowledge_paragraph">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Tempore quisquam aspernatur
+                            nihil laudantium modi labore omnis at illo commodi? Repellat non
+                            fuga eligendi maiores ducimus voluptates porro magni
+                            consequuntur dolor.</p>
+                        <a href="#" class="cta">Prueba nuestros planes</a>
+                    </div>
+                    <figure class="Knowledge_picture">
+                        <img src="./IMAGE/macbook.png" class="Knowledge_img">
+                    </figure>
+                </div>
+            </section>
+            <section class="price container">
+
+                <h2 class="subtitle">Los mejores precios</h2>
+
+                <div class="price_table">
+                    <div class="price_element">
+                        <p class="plan_name">Buy Now</p>
+                        <h3 class="plan_price">Free</h3>
+
+                        <div class="plan_items">
+                            <p class="plan_features">buy</p>
+                            <p class="plan_features">Layouts</p>
+                            <p class="plan_features">Responsive</p>
+                        </div>
+                        <a href="#" class="plan_cta">Empieza ahora</a>
+                    </div>
+                    <div class="price_element price_element--best">
+                        <p class="plan_name">Copralo ahora</p>
+                        <h3 class="plan_price">$60/mes</h3>
+
+                        <div class="plan_items">
+                            <p class="plan_features">compralo ahora</p>
+                            <p class="plan_features">Layouts</p>
+                            <p class="plan_features">Responsive</p>
+                        </div>
+                        <a href="#" class="plan_cta">Empieza ahora</a>
+                    </div>
+                    <div class="price_element">
+                        <p class="plan_name">SISTEMA DE REGISTRO</p>
+                        <h3 class="plan_price">$40/mes</h3>
+
+                        <div class="plan_items">
+                            <p class="plan_features">REGISTRO DE BASICO</p>
+                            <p class="plan_features">REGISTRO DE MEDIUM</p>
+                            <p class="plan_features">REGISTRO PLUS FULL</p>
+                        </div>
+                        <a href="#" class="plan_cta">Empieza ahora</a>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="questions container">
+                <h2 class="subtitles">Preguntas Frecuentes</h2>
+                <p class="question_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi architecto
+                    cumque optio nihil et quidem ratione laudantium harum earum ducimus molestiae labore fugit, cum
+                    libero
+                    praesentium. Nihil qui eveniet ipsum.</p>
+
+                <section class="questions_container">
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">Que es TECH E Y E
+                                <span class="questions_arrow">
+                                    <img src="./IMAGE/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+                            <p class="questions_show">Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit.
+                                Unde a quas voluptas sit distinctio
+                                nam autem, porro aperiam delectus.
+                                Magnam, ut illo odio tempora molestias
+                                sunt animi aspernatur non delectus.</p>
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">Que es TECH E Y E
+                                <span class="questions_arrow">
+                                    <img src="./IMAGE/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+                            <p class="questions_show">Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit.
+                                Unde a quas voluptas sit distinctio
+                                nam autem, porro aperiam delectus.
+                                Magnam, ut illo odio tempora molestias
+                                sunt animi aspernatur non delectus.</p>1
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">Que es TECH E Y E
+                                <span class="questions_arrow">
+                                    <img src="./IMAGE/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+                            <p class="questions_show">Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit.
+                                Unde a quas voluptas sit distinctio
+                                nam autem, porro aperiam delectus.
+                                Magnam, ut illo odio tempora molestias
+                                sunt animi aspernatur non delectus.</p>1
+                        </div>
+                    </article>
+
+                </section>
+
+                <section class="questions_offer">
+
+                    <h2 class="subtitle">Estas listo</h2>
+                    <p class="questions_copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui at
+                        blanditiis inventore non vel iste, iusto deleniti cum voluptatum vero dolor vitae ex praesentium
+                        enim dolores veniam optio mollitia exercitationem.</p>
+                    <a href="#" class="cta">Aprende ahora</a>
+                </section>
+                <section class="copy_right">
+                    <footer>
+                        <div class="copy_right_container">
+                            <small>copyright Edgar Alberto 2032</small>
+                        </div>
+
+                    </footer>
+                </section>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
+
+<!--form-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar De la Rosa </title>
+    <link rel="shortcut icon" href="./IMAGE/Tech.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/form.css">
+</head>
+
+<body>
+     <nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa</h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">setting</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="./Pagina_principal.html" class="nav_links">volve atras</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../galeria de imagenes/galeria.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Contactanos</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+            <form action="submit" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<--CSS style-->
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+:root{
+    --padding-container:100px 0;
+    --color-title: #fff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.body{background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../IMAGE/fondo.jpg');
+background-repeat: no-repeat;}
+
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #ffff;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0% 80%);
+    z-index: -1;
+
+}
+
+/* NAV*/
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav_img{
+    display: block;
+    width: 30px;
+}
+
+.nav_close{
+    display: var(--show, none);
+}
+ /*HERO CONTAINER*/
+
+ .hero_container{
+    max-width: 800px;
+    --padding-container:0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+ }
+ .hero_title{
+    font-size: 3rem;
+ }
+ .hero_paragraph{
+    margin-bottom: 20px;
+ }
+
+ .cta{
+    display: inline-block;
+    background-color: #0a1761;
+    justify-self: center;
+    color: #ffff;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 32px;
+
+ }
+
+ .about{
+    text-align: center;
+ }
+
+ .subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+ }
+
+ .about_paragraph{
+    line-height: 1.7;
+ }
+
+ .about_main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+
+ }
+
+ .about_icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: white;
+ }
+
+ .about_icon{
+    width: 40px;
+ }
+
+ /*Knowledge*/
+ .Knowledge{
+background-blend-mode: multiply;
+overflow: hidden;
+color: #ffff;
+
+ }
+
+ .Knowledge_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+ }
+
+ .Knowledge_picture{
+    max-width: 500px;
+ }
+
+ .Knowledge_paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+ }
+
+ .Knowledge_img{
+    width: 100%;
+    display: block;
+ }
+
+ /*price*/
+
+ .price{
+    text-align: center;
+ }
+
+ .price_table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 5s ease;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .price_element{
+    background-color: #e5e5f7;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+    --color-plan: #696871;
+    --color-price: #1d293f;
+    --bg-cta: #ffff;
+    --color-cta: #5454D4;
+    --color-items: #696871;
+ }
+
+ .price_element--best{
+    width: 370px;
+    padding: 60px 40px;
+    background-color:#ff9e01;
+    --color-plan: #e9ebf3,l;
+    --color-price: #e7ebf1; 
+    --bg-cta: #ffff;
+    --color-cta: rgb(31, 26, 26);
+    --color-items: #151137;
+ }
+
+ 
+
+
+ .plan_name{
+    color:var(--color-plan);
+    margin-bottom: 15px;
+    font-weight: 300;
+ }
+
+ .plan_price{
+    font-size: 2.5;
+    color: var(--color-price);
+
+ }
+
+ .plan_items{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--color-items);
+ }
+
+ .plan_cta{
+display: block;
+padding: 20px 0;
+border-radius: 10px;
+text-decoration: none;
+background-color: var(--bg-cta);
+font-weight: 600;
+color: var(--color-cta);
+box-shadow: 0 0 1px rgb(0, 0, 0,.5); 
+}
+
+
+.testimony{
+    background-color: #e5e5f7;
+}
+.testimony_container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+
+
+/*question*/
+.questions{
+    text-align: center;
+}
+
+.questions_container{
+    display: grid;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.questions_padding{
+    padding: 0;
+    transition: padding .3s;
+    border: 1px solid #eaeaf2;
+    border-radius: 6px;
+}
+.questions_padding--add{
+    padding-bottom: 30px;  
+}
+.questions_answer{
+    padding: 0 30px 0;
+    overflow: hidden;
+}
+.questions_title{
+    text-align: left;
+    display: flex;
+    font-size: 20px;
+    padding: 30px 0 30px;
+    cursor: pointer;
+    color: var(--color-title);
+    justify-content: space-between;
+}
+.questions_arrow{
+    border-radius: 50%;
+    background-color: var(--color-title);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin-left: 10px;
+    transition: transform .3s;
+}
+.questions_arrow--rotate{
+    transform: rotate(180deg);
+}
+.questions_show{
+    text-align: left;
+    height: 0;
+    transition: height .3s;
+}
+.questions_img{
+    display: block;
+}
+.questions_copy{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.copy_right_container{
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 20px;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+p{
+color: white;
+}
+
+h2{
+color: #fff;
+}
+
+<--principa css-->
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin:  0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+<-- form --->
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../IMAGE/fondo.jpg');
+  background-repeat: no-repeat;
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #141314; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #080808; 
+  border-color: #020202; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #0d0d0d; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #0a0a0a;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+
+
+
+
+
+

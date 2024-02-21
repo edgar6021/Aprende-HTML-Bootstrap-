@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Bordes.css">
+  <title>Bordes</title>
+</head>
+<body>
+<nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa </h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Form.html" class="nav_links">setting</a>
+                    </li>
+                     <li class="nav_items">
+                <a href="../Primera.html" class="nav_links">Proyecto anterior</a>
+                   </li>
+                    <li class="nav_items">
+                        <a href="../tercera practica css/sombras.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+<h1>TIPOS DE BORDES EN CSS</h1>
+<div class="bordes">
+<div class="row">
+ <div class="div-round A">
+    <span>A</span>
+  </div>
+
+  <div class="div-round B">
+    <span>B</span>
+  </div>
+
+  <div class="div-round C">
+    <span>C</span>
+  </div>
+</div>
+ 
+<div class="row">
+ <div class="div-round D">
+    <span>D</span>
+  </div>
+
+  <div class="div-round E">
+    <span>E</span>
+  </div>
+
+  <div class="div-round F">
+    <span>F</span>
+  </div>
+</div>
+</div>
+
+
+ 
+</body>
+</html>
+
+
+body {
+      align-items: center;
+    margin: 3%;
+    padding: 0;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../../../image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bordes{
+background-color: antiquewhite;
+border: solid 1px;
+}
+h1{
+text-align: center;
+color:aqua;
+}
+h2{
+color: aqua;
+}
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+.div-round {
+  border: 2px solid #333;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.A {
+  background-color: #FF5733;
+  width:150px;
+  height:60px ;
+  border-radius: 0 0 45px 0 ;
+
+}
+
+.B {
+  background-color: #9B59B6;
+  width:150px;
+  height:60px ;
+  border-radius: 0 0 30px 0;
+}
+
+.C {
+  background-color: #3498DB;
+  width: 150px;
+  height: 60px;
+  border-radius: 0 0 20px 0;
+}
+
+.D {
+  background-color: #E74C3C;
+  width:150px;
+  height:60px ;
+  border-radius: 10px 50px 10px 50px;
+}
+
+.E {
+  background-color: #27AE60;
+  width:150px;
+  height:60px ;
+  border-radius: 12% 10% 13% 12%;
+}
+
+.F {
+  background-color: #F39C12;
+  width:75px;
+  height:75px;
+  border-radius: 100% ;
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color:aqua;
+    text-decoration: none;
+
+    
+}

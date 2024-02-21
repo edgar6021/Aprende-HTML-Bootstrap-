@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sombras.css">
+  <title>Sombras</title>
+</head>
+<body>
+<nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa </h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../../../Practica1-HTML/pagina web navegable/Form.html" class="nav_links">setting</a>
+                    </li>
+ `                  <li class="nav_items">
+                <a href="../segunda pratica css/Bordes.html" class="nav_links">Proyecto anterior</a>
+            </li>
+                    <li class="nav_items">
+                        <a href="../../segunda practica css/listas/listas.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+<h1>TIPOS DE SOMBRAS EN CSS</h1>
+<div class="sombras">
+<div class="row">
+ <div class="div-shades A">
+    <span>A</span>
+  </div>
+
+  <div class="div-shades B">
+    <span>B</span>
+  </div>
+
+  <div class="div-shades C">
+    <span>C</span>
+  </div>
+</div>
+ 
+<div class="row">
+ <div class="div-shades D">
+    <span>D</span>
+  </div>
+
+  <div class="div-shades E">
+    <span>E</span>
+  </div>
+
+  <div class="div-shades F">
+    <span>F</span>
+  </div>
+</div>
+<div class="row">
+ <div class="div-shades G">
+    <span>G</span>
+  </div>
+
+  <div class="div-shades H">
+    <span>H</span>
+  </div>
+
+  <div class="div-shades I">
+    <span>I</span>
+  </div>
+</div>
+<div class="row">
+ <div class="div-shades J">
+    <span>J</span>
+  </div>
+
+  <div class="div-shades K">
+    <span>K</span>
+  </div>
+
+  <div class="div-shades L">
+    <span>L</span>
+  </div>
+</div>
+</div>
+
+
+ 
+</body>
+</html>
+
+body {
+  align-items: center;
+    margin: 3%;
+    padding: 0;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../../../image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+text-align: center;
+color:aqua;
+}
+h2{
+color: aqua;
+}
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+.div-shades {
+  border: 2px solid #333;
+  margin: 10px;
+  width: 150px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sombras{
+border: solid 1px;
+background-color: antiquewhite;
+}
+
+.A {
+ box-shadow: -5px -5px;
+ background-color: aqua;
+
+}
+
+.B {
+box-shadow: -3px -3px  gray;
+background-color: aqua;
+
+ 
+}
+
+.C {
+box-shadow: -6px -6px 6px 6px;
+background-color: aqua;
+  
+}
+
+.D {
+box-shadow: -5px -5px 5px  5px gray;
+background-color: aqua;
+}
+
+.E {
+  background-color: aqua;
+}
+
+.F {
+box-shadow: 0px 0px 5px 5px ;
+background-color: aqua;
+}
+
+.G{
+box-shadow:inset -2px -2px 2px 2px;
+background-color: aqua;
+}
+
+.H{
+box-shadow: inset -2px -2px 4px 4px gray;
+background-color: aqua;
+}
+
+.I{
+box-shadow:inset -8px -8px 2px 2px;
+background-color: aqua;
+}
+
+.J{
+box-shadow:inset -6px -6px 4px 4px gray;
+background-color: aqua;
+}
+.K{
+background-color: aqua;
+}
+
+.L{
+box-shadow: inset 0px 0px 2px 2px;
+background-color: aqua;
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color:aqua;
+    text-decoration: none;
+
+    
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./busqueda.css">
+    <title>Busqueda</title>
+</head>
+
+<body>
+<nav class="nav container " daralist>
+        
+                <div class="nav_logo">
+                    <h2 class="nav_title">Edgar De la Rosa </h2>
+                </div>
+                <ul class="nav_link nav_link--menu">
+
+                    <li class="nav_items">
+                        <a href="../../index.html" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Form.html" class="nav_links">setting</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pedidos/pedido.html" class="nav_links">Proyecto anterior</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="../pagina web navegable/Pagina_principal.html" class="nav_links">Siguiente proyecto</a>
+                    </li>
+                </ul>
+            </nav>
+    <h1>Resultado de la busqueda</h1>
+<div class="busqueda">
+    <h4>Tabla</h4>
+    <table>
+     <col>
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="./imagenes/Iphone14.webp" alt=""></td>
+                <td><a href="https://tienda.claro.com.do/iphone-pro-max-256-gb-space-black">Iphone 14 Pro Max 256GB
+                        Space Black</a><br><br>
+                    <a href="">Comprar</a>
+                   <small class="precio_anterior"> $899.99 </small><small>349E</small>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./imagenes/Laptop.jpg" alt=""></td>
+                <td><a
+                        href="https://www.amazon.com/AN515-58-57Y8-i5-12500H-GeForce-Display-Keyboard/dp/B0BSLWGFXD/ref=sr_1_3?adgrpid=80399723174&hvadid=585479751029&hvdev=c&hvlocphy=9069772&hvnetw=g&hvqmt=b&hvrand=8810027104984370942&hvtargid=kwd-22715836&hydadcr=29491_14573935&keywords=portatil&qid=1691425068&sr=8-3">Acer
+                        Nitro 5 AN515-58-57Y8 Gaming Laptop | Intel Core i5-12500H | NVIDIA GeForce RTX 3050 Ti Laptop
+                        GPU | 15.6" FHD 144Hz IPS Display | 16GB DDR4 | 512GB Gen 4 SSD | Killer Wi-Fi 6 |
+                        Backlit</a><br><br>
+                    <a href="">Comprar</a>
+                     <small class="precio_anterior"> $899.99 </small><small>349E</small>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./imagenes/televisor.webp" alt=""></td>
+                <td><a href="https://www.samsung.com/latin/support/model/UN46D6000SMXZL/">46" Full HD Smart LED
+                        TV</a><br><br>
+                    <a href="">Comprar</a>
+                    <small class="precio_anterior"> $899.99 </small><small>349E</small>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./imagenes/Tesla.jfif" alt=""></td>
+                <td><a href="https://www.tesla.com/models/design#overview">Model S</a><br><br>
+                    <a href="">Comprar</a>
+                    <small class="precio_anterior"> $899.99 </small><small>349E</small>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    // Variable para rastrear el historial de proyectos abiertos
+    const historialProyectos = [];
+
+    // Función para abrir un proyecto en una nueva ventana
+    function abrirProyecto(url) {
+        // Abre el proyecto en una nueva ventana
+        const nuevaVentana = window.open(url, '_blank');
+        
+        // Agrega la URL del proyecto al historial
+        historialProyectos.push(url);
+
+        // Cierra la ventana del proyecto si se cierra
+        if (nuevaVentana) {
+            nuevaVentana.addEventListener('beforeunload', function () {
+                historialProyectos.pop(); // Elimina la URL del proyecto cerrado
+            });
+        }
+    }
+
+    // Función para volver a la página principal
+    function volverAInicio() {
+        // Verifica si hay proyectos en el historial
+        if (historialProyectos.length > 0) {
+            // Obtiene la última URL del historial
+            const ultimaURL = historialProyectos.pop();
+            // Redirige a la última URL
+            window.location.href = ultimaURL;
+        } else {
+            // Si no hay proyectos en el historial, simplemente regresa a la página principal
+            window.location.href = '../../index.html';
+        }
+    }
+</script>
+
+</body>
+
+</html>

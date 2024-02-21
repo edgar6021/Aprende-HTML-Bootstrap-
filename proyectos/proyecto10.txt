@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./primera.css">
+    <title>CSS</title>
+</head>
+<body>
+    <nav class="nav container" data-list>
+        <div class="nav_logo">
+            <h2 class="nav_title">Edgar De la Rosa</h2>
+        </div>
+        <ul class="nav_link nav_link--menu">
+            <li class="nav_items">
+                <a href="../../index.html" class="nav_links">Inicio</a>
+            </li>
+            <li class="nav_items">
+                <a href="../../Practica1-HTML/pagina web navegable/Description.html" class="nav_links">Acerca de</a>
+            </li>
+            <li class="nav_items">
+                <a href="../../Practica1-HTML/pagina web navegable/Form.html" class="nav_links">Ajustes</a>
+            </li>
+            <li class="nav_items">
+                <a href="../../Practica1-HTML/galeria de imagenes/galeria.html" class="nav_links">Proyecto anterior</a>
+            </li>
+            <li class="nav_items">
+                <a href="../primera practica css/segunda pratica css/Bordes.html" class="nav_links">Siguiente proyecto</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <ul>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </ul>
+    </header>
+</body>
+</html>
+
+
+body {
+    margin: 3%;
+    padding: 0;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../../image/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body li:first-of-type {
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+
+body li:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(250, 244, 244);
+}
+
+body li:nth-of-type(3) {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(250, 244, 244);
+}
+
+body li:nth-last-of-type(2) {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 244, 244);
+}
+
+body li:last-child {
+    font-size: 36px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* Estilos para el elemento nav */
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 2px;
+}
+
+
+
+.nav_title {
+    font-weight: 300;
+    color: aqua;
+}
+
+.nav_link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items {
+    list-style: none;
+}
+
+.nav_links {
+    color:aqua;
+    text-decoration: none;
+}
+
+nav li{
+list-style: none;
+font-weight: normal;
+}
